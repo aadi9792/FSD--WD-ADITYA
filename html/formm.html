@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+</head>
+<body>
+  <h1>APPLICATION FORM</h1>
+  <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+    <table cellpadding="5" cellspacing="0" border="0">
+      <tr>
+        <td>* Full Name:</td>
+        <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+      </tr>
+      <tr>
+        <td>* Email:</td>
+        <td><input type="email" name="email" placeholder="Enter your Email" required></td>
+      </tr>
+      <tr>
+        <td>* Age:</td>
+        <td>
+          <select name="age" required>
+            <option value="">Age</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25+</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Which option best describes your current role?</td>
+        <td>
+          <select name="role">
+            <option>Student</option>
+            <option>Intern</option>
+            <option>Fresher</option>
+            <option>Experienced</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>* Would you like to list references?</td>
+        <td>
+          <input type="radio" name="references" value="yes" required> Yes
+          <input type="radio" name="references" value="no"> No
+        </td>
+      </tr>
+      <tr>
+        <td>Which position would you like to apply for?</td>
+        <td>
+          <select name="position">
+            <option value="">Select an option</option>
+            <option>Junior Developer</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Full Stack</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Which programming languages do you know?</td>
+        <td>
+          <input type="checkbox" name="lang[]" value="Java">
