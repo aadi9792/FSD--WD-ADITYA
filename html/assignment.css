@@ -13,3 +13,15 @@ img[title]{
    
 
 }
+input[type="text"]{
+    background-color: black;
+}
+input[type="password"]{
+    background-color: red;
+}
+input[type="radio" ]{
+    background-color: blue;
+}
+input[type="checkbox"]{
+    background-color: orange;
+}
