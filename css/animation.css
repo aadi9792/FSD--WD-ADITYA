@@ -1,0 +1,35 @@
+body{
+    align-items: centre;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: example;
+    animation-duration: 4s;
+}
+#201{
+    margin-right: 500px;
+     width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: aditya;
+    animation-duration: 4s;
+}
+@keyframes aditya{
+    from{background-color: aqua;}
+    to{
+        background-color: rgb(177, 237, 11);
+    }
+}
+@keyframes example{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: blue;
+    }
+    90%{
+        background-color: chocolate;
+    }
+}
