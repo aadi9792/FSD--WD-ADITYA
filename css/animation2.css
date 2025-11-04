@@ -1,0 +1,18 @@
+div{ 
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name:  example;
+    animation-duration: 5s ;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-direction: alternate;
+  }
+@keyframes example {
+  0% {background-color: aqua;left: 0;top: 0;}
+  25% {background-color: beige;left: 300px;top: 0;}
+  50% {background-color: blueviolet;top: 300px;left: 300px;}
+  75% {background-color: chartreuse;left: 0;top: 300px;}
+  100% {background-color: black;top: 0px;left: 0px;}    
+}
